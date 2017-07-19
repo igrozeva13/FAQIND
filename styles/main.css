@@ -362,29 +362,18 @@ a:hover {
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 10px;
-  width: 50%;
-}
-
-#MEC-about {
-  background-color: #ebebeb;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  width: 50%;
+  width: 100%;
 }
 
   #options-large {
     margin-bottom: 70px;
-    width: 65%;
+    width: 50%;
     box-shadow: 0 -20px 40px 0 rgba(0, 0, 0, 0.2), 0 15px 40px 0 rgba(0, 0, 0, 0.19);
     margin-top: -100px;
     margin-bottom: 8%;
   }
 
   .first-column {
-    border-right-style: solid;
-    border-width: thin;
-    border-color: #ffc81c;  /* yellow color*/
     margin-bottom: 30px;
     margin-top: 30px;
     padding-left: 0px;
@@ -413,6 +402,7 @@ a:hover {
 
 .details-list li {
   padding-bottom: 10px;
+  font-size: 16px;
 }
 
 .details-list li::after {
