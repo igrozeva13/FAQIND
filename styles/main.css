@@ -1,0 +1,1084 @@
+body {
+  font-family: Avenir, sans-serif;
+}
+
+@media only screen and (max-width : 1023px) {
+p {
+  color: black;
+  text-align: justify;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 1em;
+  line-height: 20px;
+}
+}
+
+@media only screen and (min-width : 1024px) {
+p {
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  line-height: 25px;
+}
+}
+
+
+.white-text {
+  color: white;
+}
+
+.yellow-text {
+  color: #ffc81c;  /* yellow color*/
+  margin-top: 0px;
+}
+
+.light-blue-text {
+  color: #13b5ea; /* light blue */
+}
+
+.medium-blue-text {
+  color: #007dc3;
+}
+
+
+.container {
+  align-items: center;
+  display: block;
+  justify-content: center;
+  padding:0px;
+}
+
+.container-fluid {
+  align-items: center;
+  display: block;
+  justify-content: center;
+  padding: 0px;
+}
+
+@media only screen and (max-width : 1023px) {
+h1 {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.8em;
+  margin-top: 60px;
+  line-height: 40px;
+  margin-bottom: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10%;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+h4 {
+  letter-spacing: 2px;
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 35px;
+}
+}
+
+@media only screen and (min-width : 1024px) {
+h1 {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 5em;
+  margin-top: 100px;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2%;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+h4 {
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 35px;
+} }
+
+.left-justified {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 0px;
+}
+
+.right-justified {
+  text-align: right;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #13b5ea; /* light blue */
+  text-decoration: none;
+}
+
+/* ------------------------------------------------ Header --------------------------------------- */
+#header {
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat;
+}
+
+.container-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width : 1280px) {
+
+#logo{
+  max-width: 150px;
+  padding: 30px;
+  margin-left: 10%;
+}
+}
+
+@media only screen and (max-width : 1279px) {
+
+#logo{
+  max-width: 85px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+}
+
+/* ------------------------------------------------ Navigation - Large --------------------------------------- */
+
+@media only screen and (min-width : 1280px) {
+
+.dropdown {
+  width: 70%;
+}
+
+#myDropdown {
+  color: white;
+  padding-top: 10px;
+  margin-right: 10%;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  float: right;
+}
+
+.dropdown-content li {
+  display: inline;
+  padding-left: 60px;
+  letter-spacing: 3px;
+}
+
+.dropdown-content ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content ul li a:hover {
+  color: #13b5ea; /* light blue */
+  text-decoration: none;
+}
+
+.dropdown-content ul li a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.dropbtn {
+  display: none;
+}
+
+}
+
+/* ------------------------------------------------ Navigation - Small --------------------------------------- */
+@media only screen and (max-width : 1279px) {
+.dropbtn {
+  color: white;
+  background-image: url(../img/background.jpg);
+  width: 40px;
+  cursor: pointer;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  #13b5ea; /* light blue */;
+  z-index: 1;
+  float: right;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+}
+
+.dropdown-content ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown-content li {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  padding: 12px 16px;
+  display: block;
+  min-width: 200px;
+}
+
+.dropdown-content a{
+  color: white;
+  letter-spacing: 2px;
+}
+
+.dropdown-content a:hover {
+  color: #0f4068; /* dark blue color*/
+  letter-spacing: 2px;
+}
+/*
+.dropdown:hover .dropdown-content{
+  display: block;
+} */
+
+}
+/* ------------------------------------------------ End Small Nav--------------------------------------- */
+
+/* ------------------------------------------------ Intro --------------------------------------- */
+#intro {
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat;
+}
+
+#intro-paragraph {
+  margin: 7% 10% 20% 10%;
+}
+
+/*
+#learn-more-button {
+  background-color: white;
+  max-width: 150px;
+  padding: 5px;
+  font-weight: bold;
+  color: #0f4068;
+  border-radius: 5px;
+  border-color: #0f4068; /* dark blue color
+  border-style: solid;
+  border-width: 3px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#learn-more-button:hover {
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#learn-more-button a {
+  text-decoration: none;
+  color: #0f4068; /* dark blue color
+}
+
+#learn-more-button a:hover {
+  text-decoration: none;
+  color: white;
+}  */
+
+/* ------------------------------------------------ Plan Options --------------------------------------- */
+
+#options-small a, #options-large a{
+  color: black;
+}
+
+#options-small a, #options-large a{
+  cursor: pointer;
+}
+
+#options-small a:hover, #options-large a:hover{
+  color: #13b5ea; /* light blue */
+}
+
+@media only screen and (min-width : 1025px) {
+.options-text {
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#row-1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#IND-about {
+  background-color: #cccccc;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+#MEC-about {
+  background-color: #ebebeb;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+  #options-large {
+    margin-bottom: 70px;
+    width: 65%;
+    box-shadow: 0 -20px 40px 0 rgba(0, 0, 0, 0.2), 0 15px 40px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -100px;
+    margin-bottom: 8%;
+  }
+
+  .first-column {
+    border-right-style: solid;
+    border-width: thin;
+    border-color: #ffc81c;  /* yellow color*/
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .second-column {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+#options-small {
+  display: none;
+}
+
+.details-list {
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 0px;
+}
+
+.details-list li {
+  padding-bottom: 10px;
+}
+
+.details-list li::after {
+  content: "";
+  background: #ffc81c;  /* yellow color*/;
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  height: 1px;
+  width: 20%;
+  margin-top: 30px;
+}
+}
+
+
+/* ------------------------------------------------ Plan Options -Mobile--------------------------------------- */
+@media only screen and (max-width : 1024px) {
+#grey-back {
+  width: 100%;
+  background-color: #ebebeb; /* grey color*/
+}
+
+#grey-back h4{
+  font-size: 15px;
+}
+
+#options-large {
+  display: none;
+}
+
+.options-text {
+  padding-top: 5px;
+  margin-bottom: -10px;
+}
+
+#small-text {
+  font-size: 11px;
+  margin-top: -0px;
+}
+
+.details-list {
+  margin-bottom: 35px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#learn-more-button {
+  display: none;
+}
+
+ul {
+  text-align: left;
+  margin-left: 8%;
+}
+}
+/* ------------------------------------------------ End Mobile--------------------------------------- */
+
+
+/* ------------------------------------------------ Enroll --------------------------------------- */
+#enroll {
+  background-color: #ffc81c;  /* yellow color*/
+}
+
+.enroll-buttons:hover {
+  color: #ffc81c;  /* yellow color*/
+  background-color: white;
+  border-color: white;  /* yellow color*/
+  cursor: pointer;
+}
+
+#when-to-enroll {
+  color: #ffc81c;  /* yellow color*/
+  background-color: white;
+  border-color: white;  /* yellow color*/
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width : 1600px) {
+.mySlides {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+}
+
+@media only screen and (min-width: 1300px) and (max-width : 1599px) {
+.mySlides {
+  width: 90%;
+  margin-left: 7%;
+  margin-right: 3%;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1299px)  {
+.mySlides {
+  margin: 0px;
+  width: 100%;
+}
+}
+
+@media only screen and (min-width: 764px) and (max-width : 1023px) {
+.mySlides {
+  width: 100%;
+}
+}
+
+
+
+@media only screen and (min-width : 764px) {
+.mySlides br {
+  display: none;
+}
+
+.large-number {
+  color: white;
+  font-weight: bold;
+  font-size: 20em;
+  float: left;
+  padding-right: 5%;
+  margin-top: -5%;
+}
+
+#button-steps {
+  margin-top: 3%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.enroll-buttons {
+  padding: 8px 18px 8px 18px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #ffc81c;  /* yellow color*/
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.yellow-background {
+  background-color: #ffc81c;  /* yellow color*/
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 50px 0px;
+}
+
+.mySlides h3{
+  padding-bottom: 10px;
+}
+
+.prev, .next {
+  font-size: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+}
+
+/* ------------------------------------------------ Slideshow-mobile --------------------------------------- */
+@media only screen and (max-width : 763px) {
+  .mySlides {
+    width: 100%;
+  }
+
+  .mySlides h3{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .mySlides p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .large-number {
+    color: white;
+    font-weight: bold;
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+
+  #button-steps {
+    margin-top: 25px;
+    align-items: stretch;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .enroll-buttons {
+    padding: 8px 8px 8px 8px;
+    color: white;
+    font-size: .75em;
+    font-weight: bold;
+    background-color: #ffc81c;  /* yellow color*/
+    display: inline-block;
+    border-style: solid;
+    border-width: 1.25px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: normal;
+  }
+
+  .yellow-background {
+    background-color: #ffc81c;  /* yellow color*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+  }
+  .prev, .next {
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+/* ------------------------------------------------ End Slideshow-mobile --------------------------------------- */
+#slide-2, #slide-3 {
+  display: none;
+}
+
+.slider {
+  color: white;
+  font-size: 3em;
+  padding: 0 5% 0 5%;
+}
+
+.prev:hover, .next:hover {
+  cursor: pointer;
+}
+
+#prev-2, #prev-3, #next-2, #next-3 {
+  display: none;
+}
+
+/* ------------------------------------------------ Network --------------------------------------- */
+
+.network-box a:hover {
+  color: #0f4068; /* dark blue color*/
+}
+
+.network-box a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#network h4 a{
+  color: black;
+}
+
+
+@media only screen and (min-width : 764px) {
+.row-icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 15%;
+  background-color: #0f4068; /* dark blue color*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.network-icons {
+  max-width: 20%;
+  margin: 10% 40% 10% 40%;
+}
+
+.network-links {
+  margin-bottom: 15%;
+}
+
+.network-box:hover {
+  background-color: #007dc3; /* light blue */
+}
+
+.body-paragraph {
+  padding: 2% 10% 2% 10%;
+}
+
+#network h4 a:hover {
+  color: #13b5ea; /* light blue */
+}
+}
+
+/* ------------------------------------------------ Network-Mobile --------------------------------------- */
+@media only screen and (max-width : 763px) {
+.row-icons {
+  background-color: #0f4068; /* dark blue color*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.network-icons {
+  max-width: 15%;
+  margin: 5% 42.5% 0 42.5%;
+}
+
+.network-links {
+  padding-bottom: 5%;
+}
+
+.light-blue {
+  background-color: #007dc3; /* meidum blue color*/
+}
+
+.body-paragraph {
+  padding: 5% 10% 5% 10%;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+#network a:hover {
+  color: #13b5ea; /* light blue */
+}
+}
+
+/* ------------------------------------------------ QLE --------------------------------------- */
+#QLE {
+  background-color: #13b5ea; /* light blue */
+}
+
+@media only screen and (min-width : 1201px) {
+
+.QLE-icon {
+  height: 75px;
+  padding: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  float: left;
+}
+
+.top{
+  padding-top: 20px;
+}
+
+.bottom {
+  padding-top: 5px;
+}
+
+.box {
+  padding-bottom: 5%;
+} }
+
+
+/* ------------------------------------------------ QLE-midsize tablet --------------------------------------- */
+@media only screen and (min-width : 765px) and (max-width: 1200px){
+  .QLE-icon {
+    height: 75px;
+    padding: 5px;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+  }
+
+  .top{
+    padding-top: 5%;
+    line-height: 19px;
+  }
+
+  .bottom {
+    padding-top: 3%;
+    line-height: 19px;
+  }
+
+  .box {
+    padding-bottom: 5%;
+  }
+
+  .box h4 {
+    font-size: 16px;
+    padding-bottom: 5%;
+    }
+}
+
+/* ------------------------------------------------ QLE-small tablet --------------------------------------- */
+@media only screen and (min-width : 461px) and (max-width: 764px){
+  .QLE {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+  }
+
+  .QLE-icon {
+    height: 75px;
+    padding: 5px 15px 5px 0px;
+    float: left;
+    margin-left: -5%;
+  }
+
+  .top{
+    padding-top:7%;
+    padding-bottom: 5%;
+    line-height: 19px;
+  }
+
+  .bottom {
+    padding-top: 5%;
+    line-height: 19px;
+  }
+
+  .box {
+    padding-bottom: 10%;
+  }
+
+  .box h4 {
+    font-size: 16px;
+    }
+}
+
+/* ------------------------------------------------ QLE-mobile --------------------------------------- */
+@media only screen and (max-width : 460px) {
+.QLE {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.QLE-icon {
+  height: 55px;
+  padding: 5px 15px 5px 0px;
+  float: left;
+  margin-left: -5%;
+}
+
+.top{
+  padding-top: 10px;
+}
+
+.bottom {
+  padding-top: 10px;
+  line-height: 19px;
+}
+
+.box {
+  padding-bottom: 10%;
+}
+
+.box h4 {
+  font-size: 12px;
+  }
+
+}
+/* ------------------------------------------------ end QLE-mobile --------------------------------------- */
+
+/* ------------------------------------------------ FAQ --------------------------------------- */
+#FAQ {
+  margin-bottom: 100px;
+}
+
+.question-box {
+  background-color: #ebebeb; /* grey color*/
+  margin-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.answer-box {
+  background-color: white;
+}
+
+.blue-Q {
+  padding: 10px 10px 0px 10px;
+  background-color: #0f4068; /* dark blue color*/
+  float: left;
+}
+
+.blue-A {
+  float: left;
+}
+
+.plus {
+  padding: 10px 10px 0px 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+.answer-box {
+  background-color: #ebebeb; /* grey color*/
+  display: none;
+}
+
+.answer {
+  background-color: white;
+  padding: 10px;
+  margin: 25px;
+}
+
+.plus:hover {
+  cursor: pointer;
+}
+
+.minus:hover {
+  cursor: pointer;
+}
+
+.minus {
+  display: none;
+  padding: 10px 10px 0px 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+.question p{
+  text-align: left-justified;
+}
+
+/* ------------------------------------------------ FAQ-mobile --------------------------------------- */
+@media only screen and (max-width : 999px) {
+.question-box {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.answer-box {
+  width: 90%;
+}
+
+.question {
+  padding: 10px 10px 0px 10px;
+}
+
+.question p{
+  font-size: 13px;
+  text-align: center;
+}
+
+.answer p {
+  text-align: left-justified;
+}
+
+.blue-A {
+  margin-right: 4px;
+  margin-left: -4px;
+}
+
+.blue-Q {
+  padding: 20px 10px 20px 10px;
+  height: 65px;
+  margin-right: auto;
+}
+
+.plus {
+  padding: 10px 10px 0px 10px;
+  margin-left: auto;
+}
+
+.minus {
+  padding: 10px 10px 0px 10px;
+  margin-left: auto;
+}
+}
+/* ------------------------------------------------ end-mobile --------------------------------------- */
+
+@media only screen and (min-width : 1000px) {
+.question {
+  padding: 10px 10px 0px 10px;
+  float: left;
+}}
+
+@media only screen and (min-width: 1000px) and (max-width : 1199px) {
+.question-box {
+  width: 75%;
+}
+.answer-box {
+  width: 75%;
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width : 1449px) {
+.question-box {
+  width: 63%;
+}
+.answer-box {
+  width: 63%;
+}
+}
+
+@media only screen and (min-width: 1450px) and (max-width : 1999px) {
+.question-box {
+  width: 52%;
+}
+.answer-box {
+  width: 52%;
+}
+}
+
+@media only screen and (min-width : 2000px) {
+.question-box {
+  width: 40%;
+}
+.answer-box {
+  width: 40%;
+}
+}
+
+
+/* ------------------------------------------------ Footer --------------------------------------- */
+#foot-blue {
+  background-color: #0f4068; /* dark blue color*/
+}
+
+#foot-black {
+  background-color: black;
+  padding: 15px 5px 5px 5px;
+}
+
+#foot-blue a{
+  color: #13b5ea; /* light blue */
+}
+
+#foot-blue a:hover {
+  color: white;
+}
+
+@media only screen and (min-width : 764px) {
+  #foot-blue p {
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #foot-blue h2 {
+    margin: -30px 0px 0px 0px;
+    font-size: 2.5em;
+    padding-top: 25px;
+  }
+
+  #foot-blue h1 {
+    margin: 0px;
+    font-size: 3em;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width : 763px) {
+  #foot-blue p {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #foot-blue h2 {
+    margin: -30px 0px 0px 0px;
+    font-size: 2em;
+    padding-top: 25px;
+  }
+
+  #foot-blue h1 {
+    margin: 0px;
+    font-size: 2.3em;
+    padding-bottom: 15px;
+  }
+
+}
